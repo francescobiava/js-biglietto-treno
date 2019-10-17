@@ -24,4 +24,6 @@ if (age < 18) {
 finalprice = price - discount;
 
 // output prezzo finale
-console.log(finalprice);
+document.getElementById('js-price').innerHTML = (price + '€');
+document.getElementById('js-discount').innerHTML = (discount + '€');
+document.getElementById('js-finalprice').innerHTML = (finalprice + '€');
