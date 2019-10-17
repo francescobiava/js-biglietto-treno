@@ -1,0 +1,17 @@
+body {
+  background: url(../img/train.jpg);
+  background-size: contain;
+}
+
+div {
+  width: 500px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 0;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
